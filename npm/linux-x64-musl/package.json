@@ -1,0 +1,35 @@
+{
+  "name": "ctrl-chat-linux-x64-musl",
+  "version": "1.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "ctrl-chat.linux-x64-musl.node",
+  "files": [
+    "ctrl-chat.linux-x64-musl.node"
+  ],
+  "description": "Chatting with the GPT in terminal, written in Rust.",
+  "keywords": [
+    "napi-rs",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "https://github.com/rtpacks/ctrl-chat",
+  "libc": [
+    "musl"
+  ]
+}

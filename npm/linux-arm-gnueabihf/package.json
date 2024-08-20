@@ -1,0 +1,32 @@
+{
+  "name": "ctrl-chat-linux-arm-gnueabihf",
+  "version": "1.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "ctrl-chat.linux-arm-gnueabihf.node",
+  "files": [
+    "ctrl-chat.linux-arm-gnueabihf.node"
+  ],
+  "description": "Chatting with the GPT in terminal, written in Rust.",
+  "keywords": [
+    "napi-rs",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "https://github.com/rtpacks/ctrl-chat"
+}
